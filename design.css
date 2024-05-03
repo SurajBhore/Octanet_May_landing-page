@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.conmain{
+    width: 100%;
+    height: 34rem;
+   background-image: url(./images/wash_image2.jpg);
+   background-size: cover;
+}
+
+.opt{
+    width: auto ;
+    height: auto;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 5rem;
+    font-size: 1.9rem;
+    background-image: url(./images/washimg.png);
+}
+.logo:hover{
+    border: 2px solid black;
+}
+.opt{
+    margin-left: 36rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -4rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+color: rgb(102, 99, 99);
+}
+.p_services{
+   font-size: 20px;
+   margin-left: 5rem;
+   margin-top: 6rem;
+   font-weight: 800;
+   color: rgb(244, 240, 240);
+   font-family: Arial;
+}.line{
+    margin-top: 0.5rem;
+    width: 11%;
+    height: 5px;
+    background-color: rgb(83, 147, 236);
+    margin-left: 5rem;
+}
+.c_w_serv{
+    margin-left: 4.8rem;
+   line-height: 5rem; 
+   font-size: 60px;
+   font-family: Arial;
+font-weight: 900;
+color: rgb(235, 96, 96);
+}
+.nlook,.nfeel{
+    margin-left: 5rem;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #fafcfc;
+}
+.nfeel{
+    margin-left: 16rem;
+}
+.txt{
+    margin-left: 12rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: rgb(248, 246, 244);
+}
+.two{
+    margin-left: 13rem;
+}
+.three{
+    margin-left: 14rem;
+}
+.four{
+    margin-left: 15rem;
+}
+.iconcon{
+    width: auto;
+    height: 50px;
+    background-color: #b6bcbc;
+    
+}
+.iconmain{
+    width: auto;
+    height: 50px;
+    display: flex;
+    gap: 1rem;
+    background-color: #b6bcbc;
+}
+
+.github{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/github.png);
+    background-size: cover;
+    margin-left: 4rem;
+}
+.insta{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/insta_icon.png);
+    background-size: cover;
+}
+.fbook{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/facebook_icon.png);
+    background-size: cover;
+}
+.gmail{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/gmail_icon.png);
+    background-size: cover;
+}
+.linkedin{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/innkedin.png);
+    background-size: cover;
+}
+.o:hover{
+    border: 2px solid  rgb(83, 147, 236);
+    background-color: black;
+    color: white;
+}
+.icon:hover{
+    border: 2px solid black;
+}
+.contact{
+      background-color: rgb(159, 159, 239);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 3px;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rgb(37, 35, 35);
+        color: white;
+        
+    }
+}
+
